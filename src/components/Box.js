@@ -16,10 +16,10 @@ export default function Box(data) {
         
         <br></br>
         <p className="text-3xl text-white font-bold mb-5 text-left">
-        <a href="https://youtube.com/@DeveroonieWasTaken" target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://discord.com/users/689173890450194434/" target="_blank"><FontAwesomeIcon icon={faDiscord} /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/Deveroonie" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://steamcommunity.com/id/Deveroonie/" target="_blank"><FontAwesomeIcon icon={faSteam} /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://youtube.com/@DeveroonieWasTaken" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://discord.com/users/689173890450194434/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faDiscord} /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/Deveroonie" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://steamcommunity.com/id/Deveroonie/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faSteam} /></a>&nbsp;&nbsp;&nbsp;
         </p>
         
       </div>

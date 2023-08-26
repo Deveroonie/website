@@ -25,7 +25,7 @@ function Projects() {
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
     <h3
         className="text-right hfont text-3xl">
-            <a href="https://tflstatus.deveroonie.uk/" target="_blank">TfL Status Website</a>&nbsp;&nbsp;
+            <a href="https://tflstatus.deveroonie.uk/" target="_blank" rel="noreferrer">TfL Status Website</a>&nbsp;&nbsp;
             <FontAwesomeIcon icon={faHtml5} />&nbsp;
             <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
             <FontAwesomeIcon icon={faSquareJs} />&nbsp;
@@ -36,9 +36,9 @@ function Projects() {
         <br />
         <p className="text-right">
             A website to see the status of the TfL network (underground, Elizabeth, DLR and ferries!)<br />
-            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />For Underground, DLR and Elizabeth Line I used <a href="https://github.com/cxllm/tfl-status-api" target="_blank">cxllm's TfL API</a>.<br />
-            For ferries, I used <a href="https://api.tfl.gov.uk" target="_blank">TfL's Unified API</a>.<br />
-            You can see the source code <a href="https://github.com/Deveroonie/TfLStatus" target="_blank">here</a>.
+            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />For Underground, DLR and Elizabeth Line I used <a href="https://github.com/cxllm/tfl-status-api" target="_blank" rel="noreferrer">cxllm's TfL API</a>.<br />
+            For ferries, I used <a href="https://api.tfl.gov.uk" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/TfLStatus" target="_blank" rel="noreferrer">here</a>.
         </p>  
         </div>
 
@@ -47,7 +47,7 @@ function Projects() {
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
     <h3
         className="text-right hfont text-3xl">
-            <a href="https://nrstatus.deveroonie.uk/" target="_blank">National Rail Status Website</a>&nbsp;&nbsp;
+            <a href="https://nrstatus.deveroonie.uk/" target="_blank" rel="noreferrer">National Rail Status Website</a>&nbsp;&nbsp;
             <FontAwesomeIcon icon={faHtml5} />&nbsp;
             <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
             <FontAwesomeIcon icon={faSquareJs} />&nbsp;
@@ -59,15 +59,15 @@ function Projects() {
         <p className="text-right">
             A website to see the status of the National Rail network (Southern Rail, ThamesLink, etc)<br />
             It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />
-            For the data, I used <a href="https://api.tfl.gov.uk" target="_blank">TfL's Unified API</a>.<br />
-            You can see the source code <a href="https://github.com/Deveroonie/NRStatus" target="_blank">here</a>.
+            For the data, I used <a href="https://api.tfl.gov.uk" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/NRStatus" target="_blank" rel="noreferrer">here</a>.
         </p>  
         </div>
     </div>
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
     <h3
         className="text-right hfont text-3xl">
-            <a href="https://tfldepartures.deveroonie.uk/" target="_blank">London Underground Departures Website</a>&nbsp;&nbsp;
+            <a href="https://tfldepartures.deveroonie.uk/" target="_blank" rel="noreferrer">London Underground Departures Website</a>&nbsp;&nbsp;
             <FontAwesomeIcon icon={faHtml5} />&nbsp;
             <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
             <FontAwesomeIcon icon={faSquareJs} />&nbsp;
@@ -79,15 +79,15 @@ function Projects() {
         <p className="text-right">
             A website to see the departures of any supported London Underground station (some don't work due to the way TfL's API works)<br />
             It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />
-            For the data, I used <a href="https://api.tfl.gov.uk" target="_blank">TfL's Unified API</a>.<br />
-            You can see the source code <a href="https://github.com/Deveroonie/TFLUndergroundDepartureBoards" target="_blank">here</a>.
+            For the data, I used <a href="https://api.tfl.gov.uk" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/TFLUndergroundDepartureBoards" target="_blank" rel="noreferrer">here</a>.
         </p>  
         </div>
     </div>
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
     <h3
         className="text-right hfont text-3xl">
-            <a href="https://nrdepartures.deveroonie.uk/" target="_blank">National Rail Departures Website</a>&nbsp;&nbsp;
+            <a href="https://nrdepartures.deveroonie.uk/" target="_blank" rel="noreferrer">National Rail Departures Website</a>&nbsp;&nbsp;
             <FontAwesomeIcon icon={faHtml5} />&nbsp;
             <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
             <FontAwesomeIcon icon={faSquareJs} />&nbsp;
@@ -99,8 +99,8 @@ function Projects() {
         <p className="text-right">
             A website to see the departures of any UK (National Rail) train station.<br />
             It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />
-            For the data, I used <a href="https://huxley2.azurewebsites.net/" target="_blank">Huxley 2</a>.<br />
-            You can see the source code <a href="https://github.com/Deveroonie/TrainDepatureBoards" target="_blank">here</a>.
+            For the data, I used <a href="https://huxley2.azurewebsites.net/" target="_blank" rel="noreferrer">Huxley 2</a>.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/TrainDepatureBoards" target="_blank" rel="noreferrer">here</a>.
 
         </p>  
         </div>
@@ -108,7 +108,7 @@ function Projects() {
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
     <h3
         className="text-right hfont text-3xl">
-            <a href="https://nrdepartures.deveroonie.uk/" target="_blank">This Website</a>&nbsp;&nbsp;
+            <a href="https://deveroonie.uk/">This Website</a>&nbsp;&nbsp;
             <FontAwesomeIcon icon={faHtml5} />&nbsp;
             <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
             <FontAwesomeIcon icon={faSquareJs} />&nbsp;
@@ -120,7 +120,7 @@ function Projects() {
         <p className="text-right">
             This website. It displays information about the frameworks that I can work with, and the projects that I have made.<br />
             It uses HTML/CSS/JS, as well as React and TailwindCSS.<br />
-            You can see the source code <a href="https://github.com/Deveroonie/Website">here</a>.
+            You can see the source code <a href="https://github.com/Deveroonie/Website" target="_blank" rel="noreferrer">here</a>.
         </p>  
         </div>
     </div>
