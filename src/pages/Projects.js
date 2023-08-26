@@ -32,7 +32,7 @@ function Projects() {
             <FontAwesomeIcon icon={faBootstrap} />
         </h3>
         <div className="flx">
-        <img src="/TFL.png" width={192} height={192} className="proj-icon"></img>
+        <img src="/TFL.png" width={192} height={192} className="proj-icon" alt="TFL's Logo"></img>
         <br />
         <p className="text-right">
             A website to see the status of the TfL network (underground, Elizabeth, DLR and ferries!)<br />
@@ -54,7 +54,7 @@ function Projects() {
             <FontAwesomeIcon icon={faBootstrap} />
         </h3>
         <div className="flx">
-        <img src="/NR.png" width={192} height={192} className="proj-icon"></img>
+        <img src="/NR.png" width={192} height={192} className="proj-icon" alt="National Rail's Logo"></img>
         <br />
         <p className="text-right">
             A website to see the status of the National Rail network (Southern Rail, ThamesLink, etc)<br />
@@ -74,7 +74,7 @@ function Projects() {
             <FontAwesomeIcon icon={faBootstrap} />
         </h3>
         <div className="flx">
-        <img src="/Underground.png" width={192} height={192} className="proj-icon"></img>
+        <img src="/Underground.png" width={192} height={192} className="proj-icon" alt="The logo of the London Underground"></img>
         <br />
         <p className="text-right">
             A website to see the departures of any supported London Underground station (some don't work due to the way TfL's API works)<br />
@@ -94,7 +94,7 @@ function Projects() {
             <FontAwesomeIcon icon={faBootstrap} />
         </h3>
         <div className="flx">
-        <img src="/NR.png" width={192} height={192} className="proj-icon"></img>
+        <img src="/NR.png" width={192} height={192} className="proj-icon" alt="National Rail's Log"></img>
         <br />
         <p className="text-right">
             A website to see the departures of any UK (National Rail) train station.<br />
@@ -115,7 +115,7 @@ function Projects() {
             <FontAwesomeIcon icon={faReact} />  
         </h3>
         <div className="flx">
-        <img src="/Logo.png" width={192} height={192} className="proj-icon"></img>
+        <img src="/Logo.png" width={192} height={192} className="proj-icon" alt="My Logo"></img>
         <br />
         <p className="text-right">
             This website. It displays information about the frameworks that I can work with, and the projects that I have made.<br />
