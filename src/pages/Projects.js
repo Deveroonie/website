@@ -1,0 +1,136 @@
+import '../App.css';
+import Navigation from '../components/Navigation.js';
+import Box from '../components/Box.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+    faHtml5,
+    faCss3Alt,
+    faSquareJs,
+    faBootstrap,
+    faReact
+} from '@fortawesome/free-brands-svg-icons'
+function Projects() {
+  return (
+    <div>
+      <Navigation></Navigation>
+      <br></br>
+      <br></br>
+      <br></br>
+
+    <Box desc="This page shows all of the projects that I have created, what they use and where you can find the source code."></Box>
+    <br></br>
+    <div className="container mx-auto p-8 m-10">
+    <div className="grid last:md:grid-cols-2 sm:grid-cols-1 gap-4">
+        
+    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
+    <h3
+        className="text-right hfont text-3xl">
+            <a href="https://tflstatus.deveroonie.uk/" target="_blank">TfL Status Website</a>&nbsp;&nbsp;
+            <FontAwesomeIcon icon={faHtml5} />&nbsp;
+            <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
+            <FontAwesomeIcon icon={faSquareJs} />&nbsp;
+            <FontAwesomeIcon icon={faBootstrap} />
+        </h3>
+        <div className="flx">
+        <img src="/TFL.png" width={192} height={192} className="proj-icon"></img>
+        <br />
+        <p className="text-right">
+            A website to see the status of the TfL network (underground, Elizabeth, DLR and ferries!)<br />
+            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />For Underground, DLR and Elizabeth Line I used <a href="https://github.com/cxllm/tfl-status-api" target="_blank">cxllm's TfL API</a>.<br />
+            For ferries, I used <a href="https://api.tfl.gov.uk" target="_blank">TfL's Unified API</a>.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/TfLStatus" target="_blank">here</a>.
+        </p>  
+        </div>
+
+        
+    </div>
+    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
+    <h3
+        className="text-right hfont text-3xl">
+            <a href="https://nrstatus.deveroonie.uk/" target="_blank">National Rail Status Website</a>&nbsp;&nbsp;
+            <FontAwesomeIcon icon={faHtml5} />&nbsp;
+            <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
+            <FontAwesomeIcon icon={faSquareJs} />&nbsp;
+            <FontAwesomeIcon icon={faBootstrap} />
+        </h3>
+        <div className="flx">
+        <img src="/NR.png" width={192} height={192} className="proj-icon"></img>
+        <br />
+        <p className="text-right">
+            A website to see the status of the National Rail network (Southern Rail, ThamesLink, etc)<br />
+            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />
+            For the data, I used <a href="https://api.tfl.gov.uk" target="_blank">TfL's Unified API</a>.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/NRStatus" target="_blank">here</a>.
+        </p>  
+        </div>
+    </div>
+    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
+    <h3
+        className="text-right hfont text-3xl">
+            <a href="https://tfldepartures.deveroonie.uk/" target="_blank">London Underground Departures Website</a>&nbsp;&nbsp;
+            <FontAwesomeIcon icon={faHtml5} />&nbsp;
+            <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
+            <FontAwesomeIcon icon={faSquareJs} />&nbsp;
+            <FontAwesomeIcon icon={faBootstrap} />
+        </h3>
+        <div className="flx">
+        <img src="/Underground.png" width={192} height={192} className="proj-icon"></img>
+        <br />
+        <p className="text-right">
+            A website to see the departures of any supported London Underground station (some don't work due to the way TfL's API works)<br />
+            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />
+            For the data, I used <a href="https://api.tfl.gov.uk" target="_blank">TfL's Unified API</a>.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/TFLUndergroundDepartureBoards" target="_blank">here</a>.
+        </p>  
+        </div>
+    </div>
+    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
+    <h3
+        className="text-right hfont text-3xl">
+            <a href="https://nrdepartures.deveroonie.uk/" target="_blank">National Rail Departures Website</a>&nbsp;&nbsp;
+            <FontAwesomeIcon icon={faHtml5} />&nbsp;
+            <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
+            <FontAwesomeIcon icon={faSquareJs} />&nbsp;
+            <FontAwesomeIcon icon={faBootstrap} />
+        </h3>
+        <div className="flx">
+        <img src="/NR.png" width={192} height={192} className="proj-icon"></img>
+        <br />
+        <p className="text-right">
+            A website to see the departures of any UK (National Rail) train station.<br />
+            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />
+            For the data, I used <a href="https://huxley2.azurewebsites.net/" target="_blank">Huxley 2</a>.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/TrainDepatureBoards" target="_blank">here</a>.
+
+        </p>  
+        </div>
+    </div>
+    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
+    <h3
+        className="text-right hfont text-3xl">
+            <a href="https://nrdepartures.deveroonie.uk/" target="_blank">This Website</a>&nbsp;&nbsp;
+            <FontAwesomeIcon icon={faHtml5} />&nbsp;
+            <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
+            <FontAwesomeIcon icon={faSquareJs} />&nbsp;
+            <FontAwesomeIcon icon={faReact} />  
+        </h3>
+        <div className="flx">
+        <img src="/Logo.png" width={192} height={192} className="proj-icon"></img>
+        <br />
+        <p className="text-right">
+            This website. It displays information about the frameworks that I can work with, and the projects that I have made.<br />
+            It uses HTML/CSS/JS, as well as React and TailwindCSS.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/Website">here</a>.
+        </p>  
+        </div>
+    </div>
+</div>
+    
+    </div>
+    </div>
+  );
+
+}
+
+
+export default Projects;
