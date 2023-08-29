@@ -2,6 +2,8 @@ import '../App.css';
 import Navigation from '../components/Navigation.js';
 import Box from '../components/Box.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Helmet } from 'react-helmet';
+
 import {
     faHtml5,
     faCss3Alt,
@@ -11,7 +13,11 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 function Projects() {
   return (
+
     <div>
+    <Helmet>
+        <title>Projects | Deveroonie.uk</title>
+    </Helmet>
       <Navigation></Navigation>
       <br></br>
       <br></br>
@@ -29,14 +35,14 @@ function Projects() {
             <FontAwesomeIcon icon={faHtml5} />&nbsp;
             <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
             <FontAwesomeIcon icon={faSquareJs} />&nbsp;
-            <FontAwesomeIcon icon={faBootstrap} />
+            <FontAwesomeIcon icon={faReact} />
         </h3>
         <div className="flx">
         <img src="/TFL.png" width={192} height={192} className="proj-icon" alt="TFL's Logo"></img>
         <br />
         <p className="text-right">
             A website to see the status of the TfL network (underground, Elizabeth, DLR and ferries!)<br />
-            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />For Underground, DLR and Elizabeth Line I used <a href="https://github.com/cxllm/tfl-status-api" target="_blank" rel="noreferrer">cxllm's TfL API</a>.<br />
+            It uses HTML/CSS, as well as TailwindCSS, React and Axios-HTTP.<br />For Underground, DLR and Elizabeth Line I used <a href="https://api.tfl.gov.uk/" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
             For ferries, I used <a href="https://api.tfl.gov.uk" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
             You can see the source code <a href="https://github.com/Deveroonie/TfLStatus" target="_blank" rel="noreferrer">here</a>.
         </p>  

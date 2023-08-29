@@ -10,10 +10,15 @@ import {
     faBootstrap, 
     faNodeJs, 
     faNpm 
-} from '@fortawesome/free-brands-svg-icons'
+} from '@fortawesome/free-brands-svg-icons';
+import Helmet from 'react-helmet';
+
 function Experience() {
   return (
     <div>
+            <Helmet>
+        <title>Experience | Deveroonie.uk</title>
+    </Helmet>
       <Navigation></Navigation>
       <br></br>
       <br></br>
