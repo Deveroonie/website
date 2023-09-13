@@ -42,8 +42,7 @@ function Projects() {
         <br />
         <p className="text-right">
             A website to see the status of the TfL network (underground, Elizabeth, DLR and ferries!)<br />
-            It uses HTML/CSS, as well as TailwindCSS, React and Axios-HTTP.<br />For Underground, DLR and Elizabeth Line I used <a href="https://api.tfl.gov.uk/" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
-            For ferries, I used <a href="https://api.tfl.gov.uk" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
+            It uses HTML/CSS, as well as TailwindCSS, React and Axios-HTTP.<br />For the data I used <a href="https://api.tfl.gov.uk/" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
             You can see the source code <a href="https://github.com/Deveroonie/TfLStatus" target="_blank" rel="noreferrer">here</a>.
         </p>  
         </div>
