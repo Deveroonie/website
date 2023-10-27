@@ -41,9 +41,8 @@ function Projects() {
         <img src="/TFL.png" width={192} height={192} className="proj-icon" alt="TFL's Logo"></img>
         <br />
         <p className="text-right">
-            A website to see the status of the TfL network (underground, Elizabeth, DLR and ferries!)<br />
-            It uses HTML/CSS, as well as TailwindCSS, React and Axios-HTTP.<br />For Underground, DLR and Elizabeth Line I used <a href="https://api.tfl.gov.uk/" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
-            For ferries, I used <a href="https://api.tfl.gov.uk" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
+            A website to see the status of the TfL network (Underground, Elizabeth, DLR, Tramlink, and ferries!)<br />
+            It uses HTML/CSS, as well as TailwindCSS, React and Axios-HTTP.<br />For the data I used <a href="https://api.tfl.gov.uk/" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
             You can see the source code <a href="https://github.com/Deveroonie/TfLStatus" target="_blank" rel="noreferrer">here</a>.
         </p>  
         </div>
@@ -57,14 +56,14 @@ function Projects() {
             <FontAwesomeIcon icon={faHtml5} />&nbsp;
             <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
             <FontAwesomeIcon icon={faSquareJs} />&nbsp;
-            <FontAwesomeIcon icon={faBootstrap} />
+            <FontAwesomeIcon icon={faReact} />
         </h3>
         <div className="flx">
         <img src="/NR.png" width={192} height={192} className="proj-icon" alt="National Rail's Logo"></img>
         <br />
         <p className="text-right">
             A website to see the status of the National Rail network (Southern Rail, ThamesLink, etc)<br />
-            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />
+            It uses HTML/CSS, as well as TailwindCSS, React and Axios-HTTP.<br />
             For the data, I used <a href="https://api.tfl.gov.uk" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
             You can see the source code <a href="https://github.com/Deveroonie/NRStatus" target="_blank" rel="noreferrer">here</a>.
         </p>  
@@ -97,18 +96,16 @@ function Projects() {
             <FontAwesomeIcon icon={faHtml5} />&nbsp;
             <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
             <FontAwesomeIcon icon={faSquareJs} />&nbsp;
-            <FontAwesomeIcon icon={faBootstrap} />
+            <FontAwesomeIcon icon={faReact} />
         </h3>
         <div className="flx">
         <img src="/NR.png" width={192} height={192} className="proj-icon" alt="National Rail's Log"></img>
         <br />
         <p className="text-right">
-            A website to see the departures of any UK (National Rail) train station.<br />
-            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />
-            For the data, I used <a href="https://huxley2.azurewebsites.net/" target="_blank" rel="noreferrer">Huxley 2</a>.<br />
-            You can see the source code <a href="https://github.com/Deveroonie/TrainDepatureBoards" target="_blank" rel="noreferrer">here</a>.
-
-        </p>  
+            A website to see the live departures/arrivals of any station on the National Rail network<br />
+            It uses HTML/CSS, as well as TailwindCSS, React and Axios-HTTP.<br />For the data I used <a href="https://huxley2.azurewebsites.net" target="_blank" rel="noreferrer">Huxley 2</a>.<br />
+            You can see the source code <a href="https://github.com/Deveroonie/NRDepartures" target="_blank" rel="noreferrer">here</a>.
+        </p> 
         </div>
     </div>
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
