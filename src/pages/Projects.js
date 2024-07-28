@@ -91,7 +91,7 @@ function Projects() {
         <p className="text-right">
             This website. It displays information about the frameworks that I can work with, and the projects that I have made.<br />
             It uses React and TailwindCSS.<br />
-            You can see the source code <a href="https://github.com/Deveroonie/Website" target="_blank" rel="noreferrer" className='underline'>here</a>.
+            You can see the source code <a href="https://github.com/Deveroonie/Website" target="_blank" rel="noreferrer" className="underline">here</a>.
         </p>  
         </div>
     </div>
