@@ -8,7 +8,6 @@ import {
     faHtml5,
     faCss3Alt,
     faSquareJs,
-    faBootstrap,
     faReact
 } from '@fortawesome/free-brands-svg-icons'
 function Projects() {
