@@ -56,7 +56,7 @@ function Projects() {
         <p className="text-right">
             A website to see the status of the National Rail network.
             It uses TailwindCSS, and React.<br />
-            You can see the source code <a href="https://github.com/Deveroonie/NRStatus" target="_blank" rel="noreferrer" class="underline">here</a>.
+            You can see the source code <a href="https://github.com/Deveroonie/NRStatus" target="_blank" rel="noreferrer" className="underline">here</a>.
         </p>  
         </div>
     </div>
