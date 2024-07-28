@@ -67,7 +67,7 @@ function Projects() {
             <FontAwesomeIcon icon={faReact} />
         </h3>
         <div className="flx">
-        <img src="/NR.png" width={192} height={192} className="proj-icon" alt="National Rail's Log"></img>
+        <img src="/NR.png" width={192} height={192} className="proj-icon" alt="National Rail's Logo"></img>
         <br />
         <p className="text-right">
             A website to see the live departures/arrivals of any station on the National Rail network.
