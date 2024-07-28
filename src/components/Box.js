@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDiscord, faYoutube, faGithub, faSteam, faTwitter, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord, faYoutube, faGithub, faSteam, faTwitter, faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
 export default function Box(data) {
     return (
         <div className="container mx-auto p-8 m-10">
@@ -31,4 +31,4 @@ export default function Box(data) {
       
     </div>
     );
-}
+};

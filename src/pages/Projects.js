@@ -1,15 +1,15 @@
-import '../App.css';
-import Navigation from '../components/Navigation.js';
-import Box from '../components/Box.js';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Helmet } from 'react-helmet';
+import "../App.css";
+import Navigation from "../components/Navigation.js";
+import Box from "../components/Box.js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Helmet } from "react-helmet";
 
 import {
     faHtml5,
     faCss3Alt,
     faSquareJs,
     faReact
-} from '@fortawesome/free-brands-svg-icons'
+} from "@fortawesome/free-brands-svg-icons";
 function Projects() {
   return (
 
@@ -101,7 +101,7 @@ function Projects() {
     </div>
   );
 
-}
+};
 
 
 export default Projects;

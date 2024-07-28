@@ -1,7 +1,7 @@
-import '../App.css';
-import Navigation from '../components/Navigation.js';
-import Box from '../components/Box.js';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "../App.css";
+import Navigation from "../components/Navigation.js";
+import Box from "../components/Box.js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
     faHtml5, 
     faCss3Alt, 
@@ -9,8 +9,8 @@ import {
     faReact, 
     faNodeJs, 
     faNpm 
-} from '@fortawesome/free-brands-svg-icons';
-import Helmet from 'react-helmet';
+} from "@fortawesome/free-brands-svg-icons";
+import Helmet from "react-helmet";
 
 function Experience() {
   return (
@@ -75,7 +75,7 @@ function Experience() {
     </div>
   );
 
-}
+};
 
 
 export default Experience;
