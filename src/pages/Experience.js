@@ -7,7 +7,6 @@ import {
     faCss3Alt, 
     faSquareJs, 
     faReact, 
-    faBootstrap, 
     faNodeJs, 
     faNpm 
 } from '@fortawesome/free-brands-svg-icons';
@@ -35,13 +34,11 @@ function Experience() {
             <FontAwesomeIcon icon={faHtml5} />&nbsp;
             <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
             <FontAwesomeIcon icon={faSquareJs} />&nbsp;
-            <FontAwesomeIcon icon={faBootstrap} />&nbsp;
             <FontAwesomeIcon icon={faReact} />
         </h3><br />
         <p>
             I do quite a lot of frontend development!
-            I use HTML5, CSS3, and Bootstrap for most of my websites,<br />
-            however I have started learning React and Tailwind (which is in use for this website).<br />
+            I use React or NextJS and TailwindCSS for most of my websites, including this one.<br />
             I use EJS for most of my backend website's templating, however I am going to try and use React for that instead.
         </p>
     </div>
