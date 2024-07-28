@@ -69,27 +69,7 @@ function Projects() {
         </p>  
         </div>
     </div>
-    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
-    <h3
-        className="text-right hfont text-3xl">
-            <a href="https://tfldepartures.deveroonie.uk/" target="_blank" rel="noreferrer">London Underground Departures Website</a>&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faHtml5} />&nbsp;
-            <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
-            <FontAwesomeIcon icon={faSquareJs} />&nbsp;
-            <FontAwesomeIcon icon={faBootstrap} />
-        </h3>
-        <div className="flx">
-        <img src="/Underground.png" width={192} height={192} className="proj-icon" alt="The logo of the London Underground"></img>
-        <br />
-        <p className="text-right">
-            A website to see the departures of any supported London Underground station (some don't work due to the way TfL's API works)<br />
-            It uses HTML/CSS, as well as Bootstrap, Axios-HTTP.<br />
-            For the data, I used <a href="https://api.tfl.gov.uk" target="_blank" rel="noreferrer">TfL's Unified API</a>.<br />
-            You can see the source code <a href="https://github.com/Deveroonie/TFLUndergroundDepartureBoards" target="_blank" rel="noreferrer">here</a>.
-        </p>  
-        </div>
-    </div>
-    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
+        <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
     <h3
         className="text-right hfont text-3xl">
             <a href="https://nrdepartures.deveroonie.uk/" target="_blank" rel="noreferrer">National Rail Departures Website</a>&nbsp;&nbsp;
