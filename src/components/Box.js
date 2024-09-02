@@ -1,5 +1,5 @@
-import { FaDiscord, FaGithub, FaInstagram, FaSteam, FaTiktok, FaYoutube } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaDiscord, FaGithub, FaInstagram, FaSteam, FaTiktok, FaRedditAlien, FaYoutube } from "react-icons/fa";
+import { FaXTwitter,FaThreads } from "react-icons/fa6";
 export default function Box(data) {
     return (
         <div className="container mx-auto p-8 m-10">
@@ -18,8 +18,10 @@ export default function Box(data) {
         <p className="text-3xl text-white font-bold mb-5 text-left">
         <a href="https://x.com/deveroonie" target="_blank" rel="noreferrer"><FaXTwitter className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://instagram.com/deve.roonie/" target="_blank" rel="noreferrer"><FaInstagram className="inline-flex items-baseline" /></a>&nbsp;
+        <a href="https://www.threads.net/@deve.roonie/" target="_blank" rel="noreferrer"><FaThreads className="inline-flex items-baseline" /></a>&nbsp;
+        <a href="https://reddit.com/u/Deve_roonie/" target="_blank" rel="noreferrer"><FaRedditAlien className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://youtube.com/@DeveroonieWasTaken" target="_blank" rel="noreferrer"><FaYoutube className="inline-flex items-baseline" /></a>&nbsp;
-        <a href="https://www.tiktok.com/@deve.roonie" target="_blank" rel="noreferrer"><FaTiktok className="inline-flex items-baseline" /></a>&nbsp;
+        <a href="https://tiktok.com/@deve.roonie" target="_blank" rel="noreferrer"><FaTiktok className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://discord.com/users/689173890450194434/" target="_blank" rel="noreferrer"><FaDiscord className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://github.com/Deveroonie" target="_blank" rel="noreferrer"><FaGithub className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://steamcommunity.com/id/Deveroonie/" target="_blank" rel="noreferrer"><FaSteam className="inline-flex items-baseline" /></a>&nbsp;
