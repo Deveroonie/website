@@ -1,16 +1,10 @@
 import "../App.css";
 import Navigation from "../components/Navigation.js";
 import Box from "../components/Box.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { 
-    faHtml5, 
-    faCss3Alt, 
-    faSquareJs, 
-    faReact, 
-    faNodeJs, 
-    faNpm 
-} from "@fortawesome/free-brands-svg-icons";
 import Helmet from "react-helmet";
+import { FaHtml5, FaJsSquare, FaNodeJs, FaReact } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io";
+import { CgNpm } from "react-icons/cg";
 
 function Experience() {
   return (
@@ -31,10 +25,10 @@ function Experience() {
         <h3
         className="text-left hfont text-3xl">
             Frontend Development&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faHtml5} />&nbsp;
-            <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
-            <FontAwesomeIcon icon={faSquareJs} />&nbsp;
-            <FontAwesomeIcon icon={faReact} />
+            <FaHtml5 className="inline-flex items-baseline" />&nbsp;
+            <IoLogoCss3 className="inline-flex items-baseline"/>&nbsp;
+            <FaJsSquare className="inline-flex items-baseline" />&nbsp;
+            <FaReact className="inline-flex items-baseline" />
         </h3><br />
         <p>
             I do quite a lot of frontend development!
@@ -46,8 +40,8 @@ function Experience() {
         <h3
         className="text-left hfont text-3xl">
             Backend Development&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faNodeJs} />&nbsp;
-            <FontAwesomeIcon icon={faNpm} />
+            <FaNodeJs className="inline-flex items-baseline" />&nbsp;
+            <CgNpm className="inline-flex items-baseline" />
             </h3>
         <br />
         <p>
@@ -59,8 +53,8 @@ function Experience() {
         <h3
         className="text-left hfont text-3xl">
             Discord Bot Development&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faNodeJs} />&nbsp;
-            <FontAwesomeIcon icon={faNpm} />
+            <FaNodeJs className="inline-flex items-baseline" />&nbsp;
+            <CgNpm className="inline-flex items-baseline" />
         </h3>
         <br />
         <p>

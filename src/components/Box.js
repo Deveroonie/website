@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiscord, faYoutube, faGithub, faSteam, faTwitter, faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { FaDiscord, FaGithub, FaInstagram, FaSteam, FaTiktok, FaTwitter, FaYoutube } from "react-icons/fa";
 export default function Box(data) {
     return (
         <div className="container mx-auto p-8 m-10">
@@ -16,13 +15,13 @@ export default function Box(data) {
         
         <br></br>
         <p className="text-3xl text-white font-bold mb-5 text-left">
-        <a href="https://x.com/deveroonie" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://instagram.com/deve.roonie/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://youtube.com/@DeveroonieWasTaken" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.tiktok.com/@deve.roonie" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTiktok} /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://discord.com/users/689173890450194434/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faDiscord} /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/Deveroonie" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://steamcommunity.com/id/Deveroonie/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faSteam} /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://x.com/deveroonie" target="_blank" rel="noreferrer"><FaTwitter className="inline-flex items-baseline" /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://instagram.com/deve.roonie/" target="_blank" rel="noreferrer"><FaInstagram className="inline-flex items-baseline" /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://youtube.com/@DeveroonieWasTaken" target="_blank" rel="noreferrer"><FaYoutube className="inline-flex items-baseline" /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.tiktok.com/@deve.roonie" target="_blank" rel="noreferrer"><FaTiktok className="inline-flex items-baseline" /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://discord.com/users/689173890450194434/" target="_blank" rel="noreferrer"><FaDiscord className="inline-flex items-baseline" /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/Deveroonie" target="_blank" rel="noreferrer"><FaGithub className="inline-flex items-baseline" /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://steamcommunity.com/id/Deveroonie/" target="_blank" rel="noreferrer"><FaSteam className="inline-flex items-baseline" /></a>&nbsp;&nbsp;&nbsp;
 
         </p>
         

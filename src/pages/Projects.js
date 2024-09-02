@@ -1,15 +1,8 @@
 import "../App.css";
 import Navigation from "../components/Navigation.js";
 import Box from "../components/Box.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Helmet } from "react-helmet";
-
-import {
-    faHtml5,
-    faCss3Alt,
-    faSquareJs,
-    faReact
-} from "@fortawesome/free-brands-svg-icons";
+import { DiReact } from "react-icons/di";
 function Projects() {
   return (
 
@@ -31,7 +24,7 @@ function Projects() {
     <h3
         className="text-right hfont text-3xl">
             <a href="https://tflstatus.deveroonie.uk/" target="_blank" rel="noreferrer">TfL Status Website</a>&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faReact} />
+            <DiReact className="inline-flex items-baseline" />
         </h3>
         <div className="flx">
         <img src="/TFL.png" width={192} height={192} className="proj-icon" alt="TFL's Logo"></img>
@@ -48,7 +41,7 @@ function Projects() {
     <h3
         className="text-right hfont text-3xl">
             <a href="https://nrstatus.deveroonie.uk/" target="_blank" rel="noreferrer">National Rail Status Website</a>&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faReact} />
+            <DiReact className="inline-flex items-baseline" />
         </h3>
         <div className="flx">
         <img src="/NR.png" width={192} height={192} className="proj-icon" alt="National Rail's Logo"></img>
@@ -64,7 +57,7 @@ function Projects() {
     <h3
         className="text-right hfont text-3xl">
             <a href="https://nrdepartures.deveroonie.uk/" target="_blank" rel="noreferrer">National Rail Departures Website</a>&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faReact} />
+            <DiReact className="inline-flex items-baseline" />
         </h3>
         <div className="flx">
         <img src="/NR.png" width={192} height={192} className="proj-icon" alt="National Rail's Logo"></img>
@@ -80,10 +73,7 @@ function Projects() {
     <h3
         className="text-right hfont text-3xl">
             <a href="https://deveroonie.uk/">This Website</a>&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faHtml5} />&nbsp;
-            <FontAwesomeIcon icon={faCss3Alt} />&nbsp;
-            <FontAwesomeIcon icon={faSquareJs} />&nbsp;
-            <FontAwesomeIcon icon={faReact} />  
+            <DiReact className="inline-flex items-baseline" />  
         </h3>
         <div className="flx">
         <img src="/Logo.png" width={192} height={192} className="proj-icon" alt="My Logo"></img>
