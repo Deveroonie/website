@@ -7,10 +7,10 @@ export default function Navigation() {
         <span className="ml-3 text-xl text-white nav-header sm:text-center">Deveroonie</span>
       </a>
       <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <Link className="mr-5 hover:text-red-400 text-white" to="/">Home Page</Link>
-        <Link className="mr-5 hover:text-red-400 text-white" to="/experience">Experience</Link>
-        <Link className="mr-5 hover:text-red-400 text-white" to="/projects">Projects</Link>
-        <Link className="mr-5 hover:text-red-400 text-white" to="/domains">My Domains</Link>
+        <Link className="mr-5 hover:text-violet-400 text-white" to="/">Home Page</Link>
+        <Link className="mr-5 hover:text-violet-400 text-white" to="/experience">Experience</Link>
+        <Link className="mr-5 hover:text-violet-400 text-white" to="/projects">Projects</Link>
+        <Link className="mr-5 hover:text-violet-400 text-white" to="/domains">My Domains</Link>
       </nav>
     </div>
   </header>
