@@ -10,6 +10,7 @@ export default function Navigation() {
         <Link className="mr-5 hover:text-red-400 text-white" to="/">Home Page</Link>
         <Link className="mr-5 hover:text-red-400 text-white" to="/experience">Experience</Link>
         <Link className="mr-5 hover:text-red-400 text-white" to="/projects">Projects</Link>
+        <Link className="mr-5 hover:text-red-400 text-white" to="/domains">My Domains</Link>
       </nav>
     </div>
   </header>
