@@ -18,7 +18,7 @@ export default function Box(data) {
         <p className="text-3xl text-white font-bold mb-5 text-left">
         <a href="https://x.com/deveroonie" target="_blank" rel="noreferrer"><FaXTwitter className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://instagram.com/deve.roonie/" target="_blank" rel="noreferrer"><FaInstagram className="inline-flex items-baseline" /></a>&nbsp;
-        <a href="https://www.threads.net/@deve.roonie/" target="_blank" rel="noreferrer"><FaThreads className="inline-flex items-baseline" /></a>&nbsp;
+        <a href="https://threads.net/@deve.roonie/" target="_blank" rel="noreferrer"><FaThreads className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://reddit.com/u/Deve_roonie/" target="_blank" rel="noreferrer"><FaRedditAlien className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://youtube.com/@DeveroonieWasTaken" target="_blank" rel="noreferrer"><FaYoutube className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://tiktok.com/@deve.roonie" target="_blank" rel="noreferrer"><FaTiktok className="inline-flex items-baseline" /></a>&nbsp;
