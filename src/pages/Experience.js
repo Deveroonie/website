@@ -3,6 +3,8 @@ import Navigation from "../components/Navigation.js";
 import Box from "../components/Box.js";
 import Helmet from "react-helmet";
 import { FaHtml5, FaJsSquare, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiExpress, SiMongodb } from "react-icons/si";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoCss3 } from "react-icons/io";
 import { CgNpm } from "react-icons/cg";
 
@@ -28,12 +30,12 @@ function Experience() {
             <FaHtml5 className="inline-flex items-baseline" />&nbsp;
             <IoLogoCss3 className="inline-flex items-baseline"/>&nbsp;
             <FaJsSquare className="inline-flex items-baseline" />&nbsp;
-            <FaReact className="inline-flex items-baseline" />
+            <FaReact className="inline-flex items-baseline" />&nbsp;
+            <RiNextjsFill className="inline-flex items-baseline" />&nbsp;
+            <RiTailwindCssFill className="inline-flex items-baseline" />
         </h3><br />
         <p>
-            I do quite a lot of frontend development!
-            I use React or NextJS and TailwindCSS for most of my websites, including this one.<br />
-            I use EJS for most of my backend website's templating, however I am going to try and use React for that instead.
+            Frontend Development is what I have been doing the longest, since August 2020. Over the last 4 years, I have gone from creating basic websites to creating full-stack web applications with TailwindCSS, React, etc.
         </p>
     </div>
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
@@ -41,12 +43,13 @@ function Experience() {
         className="text-left hfont text-3xl">
             Backend Development&nbsp;&nbsp;
             <FaNodeJs className="inline-flex items-baseline" />&nbsp;
-            <CgNpm className="inline-flex items-baseline" />
+            <CgNpm className="inline-flex items-baseline" />&nbsp;
+            <SiExpress className="inline-flex items-baseline" />&nbsp;
+            <SiMongodb className="inline-flex items-baseline" />&nbsp;
             </h3>
         <br />
         <p>
-            I do some backend development, however not as much as I do frontend development.<br />
-            I use NodeJS and NPM for this, with the Express package.
+            I've being doing Backend website development since July 2021, using NodeJS and Express. Over the last 3 years, I have learned how to handle authentication, database integration, file uploads to S3, and more!
         </p>
     </div>
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
@@ -54,12 +57,12 @@ function Experience() {
         className="text-left hfont text-3xl">
             Discord Bot Development&nbsp;&nbsp;
             <FaNodeJs className="inline-flex items-baseline" />&nbsp;
-            <CgNpm className="inline-flex items-baseline" />
+            <CgNpm className="inline-flex items-baseline" />&nbsp;
+            <SiMongodb className="inline-flex items-baseline"/>
         </h3>
         <br />
         <p>
-            I do some Discord bot development occasionally.<br />
-            For this i use the WornOffKeys command handler and Discord.js
+            I've been doing Discord Bot Development since November 2020. During the last 3 years, I have learned how to create Discord bots with every kind of feature you can think of! Moderation, suggestions, API integrations, and a lot of other features!
         </p>
     </div>
     
