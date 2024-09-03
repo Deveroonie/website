@@ -2,7 +2,6 @@ import "../App.css";
 import Navigation from "../components/Navigation.js";
 import Box from "../components/Box.js";
 import { Helmet } from "react-helmet";
-import { DiReact } from "react-icons/di";
 function Domains() {
   return (
 
