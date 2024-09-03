@@ -6,7 +6,6 @@ import Projects from "./pages/Projects";
 import NotFound from "./pages/404";
 import Domains from "./pages/Domains";
 
-
 function App() {
   return (
     <Router>
@@ -20,6 +19,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;

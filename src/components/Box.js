@@ -1,5 +1,6 @@
-import { FaDiscord, FaGithub, FaInstagram, FaSteam, FaTiktok, FaRedditAlien, FaYoutube } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaInstagram, FaSteam, FaTiktok, FaRedditAlien, FaYoutube, FaSpotify } from "react-icons/fa";
 import { FaXTwitter,FaThreads } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 export default function Box(data) {
     return (
         <div className="container mx-auto p-8 m-10">
@@ -25,7 +26,8 @@ export default function Box(data) {
         <a href="https://discord.com/users/689173890450194434/" target="_blank" rel="noreferrer"><FaDiscord className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://github.com/Deveroonie" target="_blank" rel="noreferrer"><FaGithub className="inline-flex items-baseline" /></a>&nbsp;
         <a href="https://steamcommunity.com/id/Deveroonie/" target="_blank" rel="noreferrer"><FaSteam className="inline-flex items-baseline" /></a>&nbsp;
-
+        <a href="https://open.spotify.com/user/801e2lzn4no0qiswjsve6cbln" target="_blank" rel="noreferrer"><FaSpotify className="inline-flex items-baseline" /></a>&nbsp;
+        <a href="mailto:me@deveroonie.uk" target="_blank" rel="noreferrer"><MdEmail className="inline-flex items-baseline" /></a>
         </p>
         
       </div>
