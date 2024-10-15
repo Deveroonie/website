@@ -7,7 +7,7 @@ function Domains() {
 
     <div>
     <Helmet>
-        <title>Domains | Deveroonie.uk</title>
+        <title>Domains | Deveroonie.co.uk</title>
     </Helmet>
       <Navigation></Navigation>
       <br></br>
@@ -29,18 +29,10 @@ function Domains() {
     </div>
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
         <h3 className="text-left hfont text-3xl">
-            <a href="http://11202311.xyz/" className="underline hover:text-violet-400">11202311.xyz</a>
-        </h3><br />
-        <p>
-            <code>11202311.xyz</code> is a domain that I purchased for my Minecraft server. It isn't currently in use.
-        </p>
-    </div>
-    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
-        <h3 className="text-left hfont text-3xl">
             <a href="https://deveroonie.uk/" className="underline hover:text-violet-400">deveroonie.uk</a>
         </h3><br />
         <p>
-            <code>deveroonie.uk</code> is this website. It is my portfolio and shows information about me, such as what coding languages I can use, what projects I have made, and other information.
+            <code>deveroonie.uk</code> used to be this website. It now redirects to <code>deveroonie.co.uk</strong>.
         </p>
     </div>
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
@@ -48,23 +40,7 @@ function Domains() {
             <a href="https://deveroonie.co.uk/" className="underline hover:text-violet-400">deveroonie.co.uk</a>
         </h3><br />
         <p>
-            <code>deveroonie.co.uk</code> is a domain I purchased. I plan to move this website over to it.
-        </p>
-    </div>
-    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
-        <h3 className="text-left hfont text-3xl">
-            <a href="http://cdexsgacademy.xyz/" className="underline hover:text-violet-400">cdexsgacademy.xyz</a>
-        </h3><br />
-        <p>
-            <code>cdexsgacademy.xyz</code> is a domain I purchased for a friend, however they didn't end up needing it. It isn't currently in use.
-        </p>
-    </div>
-    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
-        <h3 className="text-left hfont text-3xl">
-            <a href="https://blazeburstmc.com/" className="underline hover:text-violet-400">blazeburstmc.com</a>
-        </h3><br />
-        <p>
-            <code>blazeburstmc.com</code> is a domain I purchased for my Minecraft server. It isn't currently in use.
+            <code>deveroonie.co.uk</code> is this website. It is my portfolio and shows information about me, such as what coding languages I can use, what projects I have made, and other information.
         </p>
     </div>
 </div>
