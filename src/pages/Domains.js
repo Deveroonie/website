@@ -32,7 +32,7 @@ function Domains() {
             <a href="https://deveroonie.uk/" className="underline hover:text-violet-400">deveroonie.uk</a>
         </h3><br />
         <p>
-            <code>deveroonie.uk</code> used to be this website. It now redirects to <code>deveroonie.co.uk</strong>.
+            <code>deveroonie.uk</code> used to be this website. It now redirects to <code>deveroonie.co.uk</code>.
         </p>
     </div>
     <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
