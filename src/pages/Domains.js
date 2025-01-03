@@ -43,6 +43,22 @@ function Domains() {
             <code>deveroonie.co.uk</code> is this website. It is my portfolio and shows information about me, such as what coding languages I can use, what projects I have made, and other information.
         </p>
     </div>
+    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
+        <h3 className="text-left hfont text-3xl">
+            <a href="https://railviews.co.uk/" className="underline hover:text-violet-400">railviews.co.uk</a>
+        </h3><br />
+        <p>
+            <code>railviews.co.uk</code> is a photo sharing website for train enthusiasts that I am working on. It isn't ready yet, however.
+        </p>
+    </div>
+    <div className="bg-zinc-900 text-white rounded-xl drop-shadow-md p-8">
+        <h3 className="text-left hfont text-3xl">
+            <a href="https://507001.xyz/" className="underline hover:text-violet-400">507001.xyz</a>
+        </h3><br />
+        <p>
+            <code>507001.xyz</code> will be used as a URL shortener for RailViews.
+        </p>
+    </div>
 </div>
     
     </div>
